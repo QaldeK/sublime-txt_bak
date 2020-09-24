@@ -1,0 +1,7 @@
+{
+
+	"black_target_version": ["py37"],
+	"black_log": "debug"
+
+
+}

@@ -1,0 +1,114 @@
+[
+	{ "keys": ["super+x"], "command": "expand_region" },
+{
+  "keys": ["super+shift+x"],
+  "command": "expand_region",
+  "args": {"undo": true},
+  "context": [{ "key": "expand_region_soft_undo" }]
+},
+{ "keys": ["ctrl+:"], "command": "toggle_comment", "args": { "block": false }
+},
+{ "keys": ["ctrl+shift+:"], "command": "toggle_comment", "args": { "block":
+	true } },
+{ "keys": ["ctrl+tab"], "command": "indent" },
+{ "keys": ["ctrl+shift+tab"], "command": "unindent" },
+{ "keys": ["ctrl+super+a"], "command": "alignment" },
+{ "keys": ["super+alt+left"], "command": "jump_back" },
+{ "keys": ["super+alt+right"], "command": "jump_forward" },
+{ "keys": ["super+alt+down"], "command": "next_modification" },
+{ "keys": ["super+alt+up"], "command": "prev_modification" },
+{ "keys": ["ctrl+super+d"], "command": "find_all_under" },
+{ "keys": ["alt+super+d"], "command": "goto_definition" },
+{ "keys": ["ctrl+super+r"], "command": "goto_reference" },
+{ "keys": ["ctrl+alt+v"], "command": "paste_from_history" },
+{ "keys": ["ctrl+shift+$"], "command": "fold" },
+{ "keys": ["ctrl+shift+*"], "command": "unfold" },
+
+
+
+{
+    "command": "anaconda_goto", "keys": ["alt+super+g"], "context": [
+        {"key": "selector", "operator": "equal", "operand": "source.python"}
+    ]
+},
+{
+    "command": "anaconda_doc", "keys": ["alt+super+d"], "context": [
+        {"key": "selector", "operator": "equal", "operand": "source.python"}
+    ]
+},
+{
+    "command": "anaconda_find_usages", "keys": ["alt+super+u"], "context": [
+        {"key": "selector", "operator": "equal", "operand": "source.python"}
+    ]
+},
+{
+    "command": "anaconda_find_usages", "keys": ["super+alt+enter"], "context": [
+        {"key": "selector", "operator": "equal", "operand": "source.python"}
+    ]
+},
+
+{
+	"keys": ["alt+shift+&"],
+	"command": "set_layout",
+	"args":
+	{
+		"cols": [0.0, 1.0],
+		"rows": [0.0, 1.0],
+		"cells": [[0, 0, 1, 1]]
+	}
+},
+{
+	"keys": ["alt+shift+é"],
+	"command": "set_layout",
+	"args":
+	{
+		"cols": [0.0, 0.5, 1.0],
+		"rows": [0.0, 1.0],
+		"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+	}
+},
+
+{
+	"keys": ["alt+shift+"],
+	"command": "set_layout",
+	"args":
+	{
+		"cols": [0.0, 1.0],
+		"rows": [0.0, 0.5, 1.0],
+		"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+	}
+},
+
+{ "keys": ["alt+enter"], "command": "select_highlighted_words", "context":
+	[	{ "key": "selection_empty", "operator": "equal", "operand": false },
+		{ "key": "setting.is_widget", "operator": "equal", "operand": false }
+	]
+},
+
+{ "keys": ["ctrl+alt+h"], "command": "highlight_words" },
+{ "keys": ["ctrl+alt+u"], "command": "unhighlight_words" },
+
+
+
+//select text between quotes 
+{
+        "no_outside_adj": null,
+        "keys": ["ctrl+alt+super+s"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect"
+            }
+        }
+},
+
+{ "keys": ["ctrl+k", "ctrl+à"], "command": "fold_fold_depth", "args": {"depth": 0} },
+{ "keys": ["ctrl+k", "ctrl+&"], "command": "fold_fold_depth", "args": {"depth": 1} },
+{ "keys": ["ctrl+k", "ctrl+é"], "command": "fold_fold_depth", "args": {"depth": 2} },
+{ "keys": ["ctrl+k", "ctrl+"], "command": "fold_fold_depth", "args": {"depth": 3} },
+
+]

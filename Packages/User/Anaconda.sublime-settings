@@ -1,0 +1,14 @@
+{   
+    "python_interpreter": "python3",
+	"auto_formatting_timeout": 80,
+	
+	"pep8_ignore":
+		[
+		    "E501",
+		    "E122",
+    
+		],
+	"anaconda_linter_mark_style": "none",
+
+    "display_signatures": false,
+}

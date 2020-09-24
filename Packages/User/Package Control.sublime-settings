@@ -1,0 +1,44 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Anaconda",
+		"Bash Build System",
+		"BracketHighlighter",
+		"build2",
+		"ColorHelper",
+		"ColorPicker",
+		"ExpandRegion",
+		"Fold Python",
+		"FuzzyFilePath",
+		"GitGutter",
+		"GotoDocumentation",
+		"HighlightWords",
+		"Language - French - Français",
+		"Local History",
+		"Markdown Extended",
+		"MarkdownEditing",
+		"MarkdownLivePreview",
+		"Material Color Scheme",
+		"Material Monokai",
+		"Material Theme",
+		"Origami",
+		"Package Control",
+		"PlainNotes",
+		"Python 3",
+		"Python Debugger",
+		"PyYapf Python Formatter",
+		"SideBarEnhancements",
+		"sublack",
+		"SublimeLinter",
+		"SublimeLinter-addon-black-for-flake",
+		"SublimeLinter-flake8",
+		"Theme - Monokai Pro",
+		"WordHighlight",
+		"Wrap Plus"
+	]
+}

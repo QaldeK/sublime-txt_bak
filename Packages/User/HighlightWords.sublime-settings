@@ -1,0 +1,35 @@
+{
+	"colors_by_scope":
+	[
+		"string",
+		"entity.name.class",
+		"variable.parameter",
+		"invalid.deprecated",
+		"invalid",
+		"support.function"
+	],
+	"permanent_highlight_keyword_color_mappings":
+	[
+		{
+			"color": "support.function",
+			"keyword": "TODO"
+		},
+		{				
+			"color": "support.function",
+			"flag": 2,
+			"keyword": "FIXIT .*"
+		},
+		{
+			"color": "string",
+			"flag": 3,
+			"keyword": "#What ?"
+		},
+		{
+			"color": "entity.name.class",
+			"flag": 2,
+			"keyword": "# @ .*" 
+		}
+
+	],
+	"whole_word": false
+}

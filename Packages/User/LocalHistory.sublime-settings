@@ -1,0 +1,6 @@
+{
+
+ "history_on_focus_lost": true,
+ "skip_if_saved_within_minutes": 2, 
+
+}
