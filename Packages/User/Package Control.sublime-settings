@@ -20,15 +20,11 @@
 		"HighlightWords",
 		"Language - French - Français",
 		"Local History",
-		"Markdown Extended",
 		"MarkdownEditing",
-		"MarkdownLivePreview",
 		"Material Color Scheme",
 		"Material Monokai",
-		"Material Theme",
 		"Origami",
 		"Package Control",
-		"PlainNotes",
 		"Python 3",
 		"Python Debugger",
 		"PyYapf Python Formatter",
@@ -37,7 +33,6 @@
 		"SublimeLinter",
 		"SublimeLinter-addon-black-for-flake",
 		"SublimeLinter-flake8",
-		"Theme - Monokai Pro",
 		"WordHighlight",
 		"Wrap Plus"
 	]
