@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# Restaurer la sauvegarde de la configuration
+
 git init
 git remote add origin https://github.com/QaldeK/sublime-txt_bak
 git fetch
 git checkout -t origin/master
+
+exit
